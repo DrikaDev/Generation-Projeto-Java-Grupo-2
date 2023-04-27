@@ -56,7 +56,7 @@ public class B_Deducoes {
 	        }
 	    }
 	public void imprimirInfo() {
-		System.out.println("\n Os mlks é Lizo !");
+		System.out.println("\n Mudamos isso as 19:57 - MIKE & SAMUEL !");
 
 } 
 
