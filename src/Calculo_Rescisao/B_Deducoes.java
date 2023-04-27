@@ -2,6 +2,7 @@ package Calculo_Rescisao;
 
 public class B_Deducoes {
 
+
 	// (********** CALCULO INSS**********)
 	private static final double baseINSS = 7507.49;
 	// FAIXA 1 = 0 até 1.302,00
@@ -55,5 +56,4 @@ public class B_Deducoes {
 	        }
 	    }
 }
-
 }
