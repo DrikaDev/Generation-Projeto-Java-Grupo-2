@@ -55,5 +55,9 @@ public class B_Deducoes {
 	            return (baseCalculo * irrf5) - 869.36;
 	        }
 	    }
-}
+	public void imprimirInfo() {
+		System.out.println("\n Os mlks é Lizo !");
+
+} 
+
 }
