@@ -1,6 +1,7 @@
 package Calculo_Rescisao;
 
 public class C_Proventos {
+<<<<<<< HEAD
 
     public static void main(String[] args) {
 // teste proventos
@@ -19,4 +20,7 @@ public class C_Proventos {
 
 
 
+=======
+dlkwandoiawnd dioawndioawnd
+>>>>>>> 801b68e71554f3f0697086b4c9eacc7584ed1941
 }
