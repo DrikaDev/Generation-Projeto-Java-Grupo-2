@@ -6,8 +6,8 @@ public class E_Resultado {
 
 		A_Funcionario func1 = new A_Funcionario(4500,27,48);
 
-		func1.getDiaSaida();
-
+		System.out.println(func1.getDiaSaida());
+		System.out.println(func1.);
 	}
 
 }

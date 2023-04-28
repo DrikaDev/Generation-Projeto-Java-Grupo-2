@@ -3,7 +3,10 @@ package Calculo_Rescisao;
 public class A_Funcionario {
 
     double salario;
+    //datatype
     int diaSaida, mesesTrabalho;
+    boolean demissaoVoluntaria;
+    boolean feriasVencidas;
 
 
     public double getSalario() {
