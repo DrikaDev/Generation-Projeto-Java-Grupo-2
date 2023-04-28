@@ -1,26 +1,27 @@
 package Calculo_Rescisao;
 
-public class C_Proventos {
-<<<<<<< HEAD
+public class C_Proventos extends A_Funcionario {
+    // (********** CALCULO Saldo Salário **********)
 
-    public static void main(String[] args) {
-// teste proventos
-        double salario = 1000;
-        int diaSaida = 26;
-        int meses = 30;
+    double saldoSalario;
 
-        double calculo = (salario / meses) * diaSaida;
+    public double getSaldoSalario() {
+        return saldoSalario;
+    }
 
+    public void setSaldoSalario(double saldoSalario) {
+        this.saldoSalario = saldoSalario;
+    }
 
-        System.out.println(calculo);
-
+    public C_Proventos(double salario, int diaSaida, int mesesTrabalho) {
+        super(salario, diaSaida, mesesTrabalho);
     }
 
 
+    public double calcularSaldoSalario(double saldoSalario) {
+        saldoSalario = (getSalario() / 30) * getDiaSaida();
+        return saldoSalario;
+    }
 
 
-
-=======
-dlkwandoiawnd dioawndioawnd
->>>>>>> 801b68e71554f3f0697086b4c9eacc7584ed1941
 }
